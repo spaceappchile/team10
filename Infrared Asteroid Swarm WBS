@@ -1,0 +1,61 @@
+This is the WBS (Work Breakdown Structure) for the Infrared Asteroid Swarm project.
+
+00 Management
+00.00 General
+00.01 Charter and Organization
+00.02 Funding
+00.03 ...
+
+01 Hardware
+01.00 General
+01.01 Platform
+01.01.00 General
+01.01.01 Structure (body) and mechanical
+01.01.02 Power Infrastructure
+01.01.03 Radio/telemetry Infrastructure
+01.01.04 Attictude sensors (3-view CCDs)
+
+01.02 Scientific Instrumentation
+01.02.00 General
+01.02.01 Telescope
+01.02.02 IR sensors
+01.02.03 ...
+
+02 Software/Firmware
+02.00 General
+02.01 Housekeeping Data
+02.01.01 Structure Sensor Data Acquisistion
+02.01.02 Power Sensor Data Acquisition
+02.01.03 Radio Quality Data Acquisition
+02.02 Science Data
+02.02.00 General
+02.02.01 Telescope data (structural, housekeeping)
+02.02.02 IR Image Data
+02.03 Ground Station Data
+02.03.00 GeneraS
+02.03.01 AOS/LOS Database
+02.03.02 Doppler Tracking Information (and radial velocity derviative)
+02.03.03 Downlink/Upload Statistics
+02.03.04 ...
+
+
+03 Data Products
+03.00 General
+03.00 Level 0 Data (raw)
+03.01 Level 1 Data (first obtention of sky coordinates)
+03.02 Level 2 Data (Level 1, plus error analysis)
+03.03 Level 3 Data (Level 2 data and re-observed: sky coordinates and proper motion)
+03.04 Level 4 Data (Final Data Product, human readable, JPD data format, and/or NASA PDS format)
+
+04 Operations
+04.00 General
+04.01 Development/Launch Preparations
+04.02 Launch/Cruise
+04.03 Detachment/Jettison
+04.04 Forward Cruise to L2@Mars
+04.05 System Health Checkout
+04.06 Science Operations
+05 Outreach
+05.00 General
+05.01 Contacts/directory
+05.02 Projects/Events
