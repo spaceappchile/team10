@@ -49,6 +49,7 @@ This is the WBS (Work Breakdown Structure) for the Infrared Asteroid Swarm proje
 
 04 Operations
 04.00 General
+      Use http://gmat.gsfc.nasa.gov/ for trajectory design
 04.01 Development/Launch Preparations
 04.02 Launch/Cruise
 04.03 Detachment/Jettison
