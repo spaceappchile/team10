@@ -13,7 +13,10 @@ This is the WBS (Work Breakdown Structure) for the Infrared Asteroid Swarm proje
 01.01.01 Structure (body) and mechanical
 01.01.02 Power Infrastructure
 01.01.03 Radio/telemetry Infrastructure
-01.01.04 Attictude sensors (3-view CCDs)
+01.01.04 Attitude Control
+01.01.04.00 General
+01.01.04.01 Attitude Sensors (LEO: GPS for location+velocity vector; attitude via 3-view star tracker CCDs)
+01.01.04.02 Attitude Actuators (LEO: magneto-torquers, else reaction wheels+micro arc thrusters)
 
 01.02 Scientific Instrumentation
 01.02.00 General
@@ -29,20 +32,21 @@ This is the WBS (Work Breakdown Structure) for the Infrared Asteroid Swarm proje
 02.01.03 Radio Quality Data Acquisition
 02.02 Science Data
 02.02.00 General
-02.02.01 Telescope data (structural, housekeeping)
+02.02.01 Telescope data (structural, star trackers, housekeeping)
 02.02.02 IR Image Data
 02.03 Ground Station Data
-02.03.00 GeneraS
-02.03.01 AOS/LOS Database
+02.03.00 General
+02.03.01 AOS/LOS Database (by forward calculation)
 02.03.02 Doppler Tracking Information (and radial velocity derviative)
 02.03.03 Downlink/Upload Statistics
-02.03.04 ...
+02.03.04 Storage Requirements
+02.03.05 ...
 
 
 03 Data Products
 03.00 General
-03.00 Level 0 Data (raw)
-03.01 Level 1 Data (first obtention of sky coordinates)
+03.00 Level 0 Data (LEO: raw downlinked; L1: on-board temporarily stored)
+03.01 Level 1 Data (image stacking and first obtention of sky coordinates)
 03.02 Level 2 Data (Level 1, plus error analysis)
 03.03 Level 3 Data (Level 2 data and re-observed: sky coordinates and proper motion)
 03.04 Level 4 Data (Final Data Product, human readable, JPD data format, and/or NASA PDS format)
